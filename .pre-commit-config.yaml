@@ -1,6 +1,6 @@
 repos:
   - repo: 'https://github.com/pre-commit/pre-commit-hooks'
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
       - id: mixed-line-ending
       - id: trailing-whitespace
@@ -11,16 +11,16 @@ repos:
       - id: check-yaml
       - id: check-merge-conflict
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.19.1
+    rev: v3.21.2
     hooks:
       - id: pyupgrade
         args: ["--py38-plus"]
   - repo: 'https://github.com/codespell-project/codespell'
-    rev: v2.4.1
+    rev: v2.4.3
     hooks:
       - id: codespell
   - repo: 'https://github.com/charliermarsh/ruff-pre-commit'
-    rev: v0.9.6
+    rev: v0.16.6
     hooks:
       - id: ruff
         args:
